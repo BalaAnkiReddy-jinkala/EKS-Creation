@@ -25,7 +25,7 @@ db_instances = {
 }
 
 zone_id                = "Z0309342AAI7YO674JQ1"
-vpc_security_group_ids = ["sg-0ea2a448676b70f53"]
+vpc_security_group_ids = ["sg-0a382f32093020ee7"]
 env                    = "dev"
 
 eks = {
