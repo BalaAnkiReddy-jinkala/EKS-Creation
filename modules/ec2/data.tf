@@ -1,3 +1,3 @@
 data "vault_generic_secret" "ssh" {
-  path = "test/ssh"
+  path = "test/demo"
 }
