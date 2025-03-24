@@ -32,8 +32,8 @@ resource "null_resource" "catalogue" {
 
     connection {
       type     = "ssh"
-      user     = data.vault_generic_secret.demo.data["username"]
-      password = data.vault_generic_secret.demo.data["demousername"]
+      user     = data.vault_generic_secret.ssh.data["username"]
+      password = data.vault_generic_secret.ssh.data["password"]
       host     = aws_instance.instance.private_ip
     }
 
